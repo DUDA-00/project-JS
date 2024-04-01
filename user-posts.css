@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  #userPosts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #userPosts > div {
+    width: 20%;
+    margin: 10px;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  #userPosts > div p {
+    margin: 5px 0;
+  }
+  
+  #userPosts > div button {
+    margin-top: 10px;
+    width: 80px;
+    height: 20px;
+  }
+  
